@@ -6,8 +6,6 @@ public class  Penumpang extends KeretaApi{
     public Penumpang(String namaKereta, String stasiunAsal, String stasiunTujuan) {
         super(namaKereta, stasiunAsal, stasiunTujuan);
     }
-
-
     public String getNama() {
         return nama;
     }

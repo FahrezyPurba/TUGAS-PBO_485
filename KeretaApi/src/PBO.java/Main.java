@@ -10,21 +10,25 @@ public class Main {
         Pembayaran pbyr1 = new Pembayaran("SENJA UTAMA","YOGYAKARTA","PASAR SENEN");
         pbyr1.tampilpembayaran();
 
-        System.out.println("+++++++++++++++++++++++++++++++++++");
+        System.out.println("***********************************");
         System.out.print("Nama Penumpang : ");
         String nama = input.nextLine();
         p1.setNama(nama);
 
+
         System.out.println("Kelas : ");
-        System.out.println("1. Eksekutif" +"\n2. Ekonomi" + "\n3. Bisnis" );
+        System.out.println("1. KretaApi Bisnis" +"\n2. KretaApi Eksekutif" + "\n3. KretaApi Ekonomi" );
         System.out.println("Pilih Kelas : ");
         int kelas = input.nextInt();
         pbyr1.setKelas(kelas);
+        pbyr1.DisplayKelas();
 
-        System.out.println("+++++++++++++++++++++++++++++++++++");
+        System.out.println("***********************************");
         System.out.println("\tNama Penumpang : "+p1.getNama());
         System.out.println("\tPembayaran Penumpang : ");
         pbyr1.hitungBayaran();
+        pbyr1.DisplayKelas();
+
     }
 }
 

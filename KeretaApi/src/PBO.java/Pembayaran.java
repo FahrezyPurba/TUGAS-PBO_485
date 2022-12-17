@@ -1,17 +1,11 @@
 package PBO.java;
 
-public class Pembayaran extends Penumpang{
+public class Pembayaran extends Penumpang implements Jenis{
     private int bagasi, kelas; //PROPERTY
     private int tiket=50000;
-
-   // public Pembayaran(){
-//        tiket = 50000;
-   // }
-
     public Pembayaran(String namaKereta, String stasiunAsal, String stasiunTujuan) {
         super(namaKereta, stasiunAsal, stasiunTujuan);
     }
-
     public void setKelas(int kelas) {
         this.kelas = kelas;
     }
@@ -22,11 +16,15 @@ public class Pembayaran extends Penumpang{
             System.out.println("\tPembayaran Tiket : " + tiket);
             System.out.println("\tbiaya Bagasi  : " + bagasi);
             System.out.println("\tTotal Pembayaran : " + total);
-            System.out.println("+++++++++++++++++++++++++++++++++++");
+            System.out.println("***********************************");
         }
     }
-
     public void tampilpembayaran(){
         tampilData();
+    }
+
+    @Override
+    public void DisplayKelas() {
+        System.out.println("JenisKelasKA : " +kelas1);
     }
 }
