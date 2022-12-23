@@ -1,8 +1,8 @@
 package PBO.java;
 
 public interface Jenis {
-    String kelas1 = "KretaApi Bisnis";
-    String kelas2 = "KretaApi Eksekutif";
-    String kelas3 = "KretaApi Ekonomi";
-    void DisplayKelas();
+    String kelas1 = "KeretaApi Bisnis";
+    String kelas2 = "KeretaApi Eksekutif";
+    String kelas3 = "KeretaApi Ekonomi";
+    double tiket = 50000;
 }

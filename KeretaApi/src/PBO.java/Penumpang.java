@@ -10,8 +10,14 @@ public class  Penumpang extends KeretaApi{
         return nama;
     }
 
-    public void setNama(String nama) {
+    public void setNama(String nama)
+    {
         this.nama = nama;
+    }
+
+    @Override
+    public void tampilData() {
+        super.tampilData();
     }
 }
 

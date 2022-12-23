@@ -1,0 +1,14 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=                       CETAK TIKET                       =
+=                  PT. KERETA API INDONESIA               =
+=         (SEBJA UTAMA) YOGYAKARTA => PASAR SENEN         =
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+| Nama Penumpang      : FAHREZY A. D. ROMERO PURBA
+| Detail Pembayaran Penumpang                             |
+| --------------------------------                        |
+|	- Pembayaran Tiket : 50000.0                          |
+|	- Biaya Bagasi     : 25000.0                          |
+|	- Total Pembayaran : 75000.0                          |
+| -------------------------------                         |
+| Jenis Kelas KA      : KeretaApi Bisnis                  |
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
